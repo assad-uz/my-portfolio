@@ -799,7 +799,7 @@ section,
 
 .hero .hero-image {
   position: relative;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 .hero .hero-image img {
@@ -1951,29 +1951,16 @@ section,
     margin-top: 30px;
   }
 }
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 .hero-image {
     position: relative;
     overflow: hidden;
+    height: 40vh;
 }
-
 .video-hero {
     width: 100%;
     height: 100%;
     object-fit: cover; /* এটি ভিডিওকে পুরো প্রস্থ ও উচ্চতায় ফিট করবে */
-}
-
-.shape-1, .shape-2 {
-    position: absolute;
-    /* এখানে আপনার shape গুলোর CSS যুক্ত করুন */
 }
